@@ -1,7 +1,7 @@
 package com.designPattern.single;
 
 /**
- * ÀÁººÄ£Ê½(lazy¼ÓÔØ)
+ * æ‡’æ±‰æ¨¡å¼(lazyåŠ è½½)
  * 
  * @author json
  *
