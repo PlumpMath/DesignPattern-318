@@ -8,7 +8,7 @@ public class Test {
 		filterChain.addFilter(new ScriptFilter());
 		filterChain.addFilter(new DefaultFilter());
 		Request request = new Request();
-		request.setRequestStr("大家好:)，<script>，敏感，被就业，网络授课没感觉，因为看不见大家伙儿");
+		request.setRequestStr("hello，<script>，敏感，被就业");
 		Response response = new Response();
 		filterChain.doFilter(request, response, filterChain);
 		System.out.println(request.getRequestStr());
