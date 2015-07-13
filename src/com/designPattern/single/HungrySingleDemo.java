@@ -13,7 +13,7 @@ public class HungrySingleDemo {
 
 	}
 
-	public HungrySingleDemo getInstance() {
+	public static HungrySingleDemo getInstance() {
 	
 		return s;
 	}
